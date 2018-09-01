@@ -4,6 +4,7 @@ var array = [];
 var array2 =[];
 var array3 = [];
 var array4 = [];
+var array5 = [];
 
 function addElementToBeginningOfArray(array,element){
  var array2 = [element,...array];
@@ -41,5 +42,9 @@ function accessElementInArray(array, index){
 function removeElementFromBeginningOfArray(array){
   array4 = array.slice(1);
   return (array4);
+  
+}
+
+function removeElementFromEndOfArray(array){
   
 }
