@@ -31,3 +31,8 @@ function addElementToEndOfArray(array, element){
   array3 = [...array, element];
   return (array3);
 }
+
+function accessElementInArray(array, index){
+  return array[index];
+  
+}
