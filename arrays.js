@@ -3,6 +3,7 @@ var chocolateBars = [ 'snickers', 'hundred grand', 'kitkat', 'skittles'];
 var array = [];
 var array2 =[];
 var array3 = [];
+var array4 = [];
 
 function addElementToBeginningOfArray(array,element){
  var array2 = [element,...array];
@@ -34,5 +35,11 @@ function addElementToEndOfArray(array, element){
 
 function accessElementInArray(array, index){
   return array[index];
+  
+}
+
+function removeElementFromBeginningOfArray(array){
+  array4 = slice(1);
+  return (array4);
   
 }
